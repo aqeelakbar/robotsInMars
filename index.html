@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>Robots in Mars</title>
+	</head>
+
+	<body>
+	Size of Mars: <br/>
+	x = <input id="marsCoordX" type="number" pattern="\d*" max="50" min="0" value="" /> <br/>
+	y = <input id="marsCoordY" type="number" pattern="\d*" max="50" min="0" value="" /> <br/>
+
+	Initial Position:<br/>
+	x = <input id="robotCoordX" type="number" pattern="\d*" max="50" min="0" value="" /> <br/>
+	y = <input id="robotCoordY" type="number" pattern="\d*" max="50" min="0" value="" /> <br/>
+	Orientation = <input id="robotOrientation" type="text" value=""/> <br/>
+
+	Commands: <br/>
+	<input id="commands" type="text" value=""/> <br/>
+
+	<input type="button" value="Start" onclick="start()"/>
+
+	<div id="output"></div>
+
+	<script type="text/javascript" src="robot.js"> </script>
+	</body>
+</html>
